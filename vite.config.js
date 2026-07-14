@@ -1,7 +1,7 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 
-// https://vite.dev/config/
 export default defineConfig({
   plugins: [react()],
+  base: '/mouaz-portfolio/', // ئەم دێڕە لێرە زیاد بکە (ناوی کۆگاکەتە لە گیت‌هەب)
 })
